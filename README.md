@@ -33,7 +33,7 @@ estoque e realizacao de vendas com baixa de estoque.
 Clone o repositorio e acesse a pasta do projeto:
 
 ```powershell
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/RennaN-C/teste-vendas-estoque.git
 cd teste-vendas-estoque
 ```
 
