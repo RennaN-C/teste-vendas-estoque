@@ -21,8 +21,8 @@ class VendaItem(Base):
     __tablename__ = "vendas_itens"
 
     id = Column(Integer, primary_key=True)
-    venda_id= Column(ForeignKey("vendas.id"), nullable=False)
-    produto_id = Column(ForeignKey("produtos.id"), nullable=False)
+    venda_id= Column(ForeignKey("vendas.id", ondelete="CASCADE"), nullable=False)
+    produto_id = Column(ForeignKey("produtos.id", ondelete="RESTRICT"), nullable=False)
     quantidade = Column(Integer, nullable=False)
     preco_unitario = Column(Numeric(10, 2), nullable=False)
     subtotal = Column(Numeric(10, 2), nullable=False)
