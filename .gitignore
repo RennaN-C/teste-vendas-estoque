@@ -1,0 +1,28 @@
+# Variaveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache e arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cobertura de testes
+.coverage
+htmlcov/
+
+# Editores e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
