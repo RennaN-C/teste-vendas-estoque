@@ -85,6 +85,7 @@ uvicorn app.main:app --reload
 A API estara disponivel em:
 
 - API: http://127.0.0.1:8000
+- Frontend simples: http://127.0.0.1:8000/front
 - Swagger: http://127.0.0.1:8000/docs
 - ReDoc: http://127.0.0.1:8000/redoc
 
